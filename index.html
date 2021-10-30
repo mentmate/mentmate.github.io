@@ -1,325 +1,411 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-	<title>mentmata</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>White - Minimal Portfolio Template</title>
+        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	
-	<!-- Font -->
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
-	
-	<!-- Stylesheets -->
-	<link href="common-css/bootstrap.css" rel="stylesheet">
-	
-	<link href="common-css/ionicons.css" rel="stylesheet">
-	
-	<!-- REVOLUTION STYLE SHEETS -->
-	<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+       
+		<!-- All CSS Files Here -->
+        <link rel="stylesheet" href="static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/css/et-line-fonts.css">
+        <link rel="stylesheet" href="static/css/ionicons.min.css">
+        <link rel="stylesheet" href="static/css/magnific-popup.css">
+        <link rel="stylesheet" href="static/css/meanmenu.css">
+        <link rel="stylesheet" href="static/css/global.css">
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="stylesheet" href="static/css/responsive.css">
+        <script src="static/js/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+ 		<!-- PRELOADER -->
+		<div class="page-loader">
+			<div class="loader">Loading...</div>
+		</div>
+		<!-- /PRELOADER -->       
+		<!-- header start -->
+		<header id="sticky-header" class="header-fixed header-transparent">
+			<div class="header-area">
+				<div class="container sm-100">
+					<div class="row">
+						<div class="col-md-3 col-sm-2">
+							<div class="logo text-upper">
+								<h4><a href="">White</a></h4>
+							</div>
+						</div>
+						<div class="col-md-9 col-sm-10">
+							<div class="menu-area hidden-xs">
+								<nav>
+									<ul class="basic-menu clearfix">
+										<li><a href="">Home</a></li>
+										<li><a href="about.html">about</a></li>
+										<!-- PORTFOLIO -->
+										<li><a href="portfolio-grid-3-cols.html">Portfolio</a></li>
+										<!-- END PORTFOLIO -->
+										<li><a href="service.html">Service</a></li>
+										<li><a href="#">Pages</a>
+											<ul>
+												<li><a href="about.html">About Us</a></li>
+												<li><a href="service.html">Service</a></li>												
+												<li><a href="pricing.html">Pricing</a></li>
+												<li><a href="contact.html">Contact</a></li>
+												<li><a href="404.html">404 Page</a></li>
+											</ul>
+										</li>                                           
+										<!-- BLOG -->
+										<li>
+											<a href="blog-grid-3-col.html">Blog</a>
+											<ul>
+												<li><a href="javascript:;">Single Post <i class="fa fa-angle-right"></i></a></li>
+											</ul>
+										</li>
+										<!-- END BLOG -->
+										<li><a href="contact.html">Contact</a></li>
+									</ul>
+								</nav>							
+							</div>
+							<!-- basic-mobile-menu --> 
+							<div class="basic-mobile-menu visible-xs">
+								<nav id="mobile-nav">
+									<ul>
+										<li><a href="">Home</a></li>
+										<li><a href="about.html">about</a></li>
+										<!-- PORTFOLIO -->
+										<li><a href="portfolio-grid-3-cols.html">Portfolio</a></li>
+										<!-- END PORTFOLIO -->
+										<li><a href="service.html">Service</a></li>
+										<li><a href="#">Pages</a>
+											<ul>
+												<li><a href="about.html">About Us</a></li>
+												<li><a href="service.html">Service</a></li>												
+												<li><a href="pricing.html">Pricing</a></li>
+												<li><a href="contact.html">Contact</a></li>
+												<li><a href="404.html">404 Page</a></li>
+											</ul>
+										</li>                                           
+										<!-- BLOG -->
+										<li>
+											<a href="blog-grid-3-col.html">Blog</a>
+											<ul>
+												<li><a href="javascript:;">Single Post <i class="fa fa-angle-right"></i></a></li>
+											</ul>
+										</li>
+										<!-- END BLOG -->
+										<li><a href="contact.html">Contact</a></li>
+									</ul>
+								</nav>
+							</div>									
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
 		
-	<!-- REVOLUTION JS FILES -->
-	<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
-	<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+		<!-- basic-slider start -->
+		<div class="basic-slider slide-6 height-100-vh">
+			<div class="container text-center">
+				<div class="hero-caption">
+					<div class=" hero-text">
+						<div class="slider-content white-bg-opacity">
+							<h2>White </h2>
+							<h4> Design | Development | Branding</h4>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+		<!-- basic-slider end -->
+		<!-- basic-portfolio-area start -->
+		<div class="basic-portfolio-area ptb-90">
+			<div class="container">
+				<div class="filter-menu text-center mb-40">
+					<button class="active" data-filter="*">ALL</button>
+					<button data-filter=".branding">Branding </button>
+					<button data-filter=".graphic">Graphic</button>
+					<button data-filter=".design">Design </button>
+					<button data-filter=".video">Video</button>
+				</div>			
+				<div id="portfolio-grid" class="row-portfolio portfolio-style-2">
+					<div class="portfolio-item branding video">
+						<div class="portfolio-wrapper">
+							<div class="portfolio-thumb">
+								<img src="static/picture/project1.jpg" alt="">
+								<div class="view-icon">
+									<a class="popup-link" href="static/picture/project1.jpg"><span class="icon-focus"></span></a>
+								</div>
+							</div>
+							<div class="portfolio-caption text-left">
+								<h4><a href="portfolio-single.html">Basic Portfolio Tile</a></h4>
+								<div class="work-tag">
+									<a href="#">Design</a>,
+									<a href="#">Photography</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item graphic">
+						<div class="portfolio-wrapper">
+							<div class="portfolio-thumb">
+								<img src="static/picture/m-project2.jpg" alt="">
+								<div class="view-icon">
+									<a class="popup-video" href="javascript:;"><span class="icon-video "></span></a>									
+								</div>
+							</div>
+							<div class="portfolio-caption text-left">
+								<h4><a href="portfolio-single.html">Basic Portfolio Tile</a></h4>
+								<div class="work-tag">
+									<a href="#">Design</a>,
+									<a href="#">Photography</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item video">
+						<div class="portfolio-wrapper">
+							<div class="portfolio-thumb">
+								<img src="static/picture/project2.jpg" alt="">
+								<div class="view-icon">
+									<a class="popup-link" href="static/picture/project2.jpg"><span class="icon-focus"></span></a>
+								</div>
+							</div>
+							<div class="portfolio-caption text-left">
+								<h4><a href="portfolio-single.html">Basic Portfolio Tile</a></h4>
+								<div class="work-tag">
+									<a href="#">Design</a>,
+									<a href="#">Photography</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item graphic">
+						<div class="portfolio-wrapper">
+							<div class="portfolio-thumb">
+								<img src="static/picture/m-project1.jpg" alt="">
+								<div class="view-icon">
+									<a href="portfolio-single.html"><span class="icon-attachment"></span></a>
+								</div>
+							</div>
+							<div class="portfolio-caption text-left">
+								<h4><a href="portfolio-single.html">Basic Portfolio Tile</a></h4>
+								<div class="work-tag">
+									<a href="#">Design</a>,
+									<a href="#">Photography</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item branding design">
+						<div class="portfolio-wrapper">
+							<div class="portfolio-thumb">
+								<img src="static/picture/m-project3.jpg" alt="">
+								<div class="view-icon">
+									<a class="popup-video" href="javascript:;"><span class="icon-video "></span></a>
+								</div>
+							</div>
+							<div class="portfolio-caption text-left">
+								<h4><a href="portfolio-single.html">Basic Portfolio Tile</a></h4>
+								<div class="work-tag">
+									<a href="#">Design</a>,
+									<a href="#">Photography</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item graphic video">
+						<div class="portfolio-wrapper">
+							<div class="portfolio-thumb">
+								<img src="static/picture/project4.jpg" alt="">
+								<div class="view-icon">
+									<a href="portfolio-single.html"><span class="icon-attachment"></span></a>
+								</div>
+							</div>
+							<div class="portfolio-caption text-left">
+								<h4><a href="portfolio-single.html">Basic Portfolio Tile</a></h4>
+								<div class="work-tag">
+									<a href="#">Design</a>,
+									<a href="#">Photography</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item branding design">
+						<div class="portfolio-wrapper">
+							<div class="portfolio-thumb">
+								<img src="static/picture/project5.jpg" alt="">
+								<div class="view-icon">
+									<a class="popup-link" href="static/picture/project5.jpg"><span class="icon-focus"></span></a>
+								</div>
+							</div>
+							<div class="portfolio-caption text-left">
+								<h4><a href="portfolio-single.html">Basic Portfolio Tile</a></h4>
+								<div class="work-tag">
+									<a href="#">Design</a>,
+									<a href="#">Photography</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item">
+						<div class="portfolio-wrapper">
+							<div class="portfolio-thumb">
+								<img src="static/picture/project6.jpg" alt="">
+								<div class="view-icon">
+									<a class="popup-link" href="static/picture/project6.jpg"><span class="icon-focus"></span></a>
+								</div>
+							</div>
+							<div class="portfolio-caption text-left">
+								<h4><a href="portfolio-single.html">Basic Portfolio Tile</a></h4>
+								<div class="work-tag">
+									<a href="#">Design</a>,
+									<a href="#">Photography</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item design">
+						<div class="portfolio-wrapper">
+							<div class="portfolio-thumb">
+								<img src="static/picture/project7.jpg" alt="">
+								<div class="view-icon">
+									<a href="portfolio-single.html"><span class="icon-attachment"></span></a>
+								</div>
+							</div>
+							<div class="portfolio-caption text-left">
+								<h4><a href="portfolio-single.html">Basic Portfolio Tile</a></h4>
+								<div class="work-tag">
+									<a href="#">Design</a>,
+									<a href="#">Photography</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="view-more mt-20 text-center">
+					<a class="btn btn-large" href="#">View More</a>
+				</div>			
+			</div>
+		</div>
+		<!-- basic-portfolio-area end -->		
+		<!-- basic-blog-area -->
+		<div class="basic-blo-area gray-bg pt-90 pb-30">
+			<div class="container">
+				<div class="area-title text-center">
+					<h2>Our Blog</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tempora veritatis nemo aut ea iusto eos est expedita, quas ab adipisci.</p>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-4 blog-item">
+						<!-- POST -->
+						<article class="post">
+							<div class="post-thumbnail">
+								<img src="static/picture/1.jpg" alt="">
+							</div>
+							<div class="post-header">
+								<div class="post-meta">
+									By <a href="#">Mark Stone</a>, 23 November, 2021
+								</div>
+								<h2 class="post-title"><a href="blog-single.html">The Ultimate Renters Guide</a></h2>
+							</div>
+							<div class="post-content">
+								<p>Grass there without lights be years male have and grass firmament kind bring, is thing doesn't herb.</p>
+								<a class="post-more" href="blog-single.html">Read more &rarr;</a>
+							</div>
+						</article>
+						<!-- /POST -->
+					</div>
+					<div class="col-sm-6 col-md-4 blog-item">
+						<!-- POST -->
+						<article class="post">
+							<div class="post-thumbnail">
+								<img src="static/picture/1.jpg" alt="">
+							</div>
+							<div class="post-header">
+								<div class="post-meta">
+									By <a href="#">Mark Stone</a>, 23 November, 2021
+								</div>
+								<h2 class="post-title"><a href="blog-single.html">Living Big in Tiny Houses</a></h2>
+							</div>
+							<div class="post-content">
+								<p>Grass there without lights be years male have and grass firmament kind bring, is thing doesn't herb.</p>
+								<a class="post-more" href="blog-single.html">Read more &rarr;</a>
+							</div>
+						</article>
+						<!-- /POST -->
+					</div>					
+					<div class="col-sm-6 col-md-4 blog-item">
+						<!-- POST -->
+						<article class="post">
+							<div class="post-thumbnail blog-slider owl-carousel">
+								<img src="static/picture/6.jpg" alt="">
+								<img src="static/picture/7.jpg" alt="">
+								<img src="static/picture/3.jpg" alt="">
+							</div>
+							<div class="post-header">
+								<div class="post-meta">
+									By <a href="#">Mark Stone</a>, 23 November, 2021
+								</div>
+								<h2 class="post-title"><a href="blog-single.html">The Ultimate Renters Guide</a></h2>
+							</div>
+							<div class="post-content">
+								<p>Grass there without lights be years male have and grass firmament kind bring, is thing doesn't herb.</p>
+								<a class="post-more" href="blog-single.html">Read more &rarr;</a>
+							</div>
+						</article>
+						<!-- /POST -->
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- basic-blog-area end -->
+		<!-- footer start -->
+		<footer>
+			<div class="basic-footer text-center ptb-90">
+				<div class="container">
+					<div class="footer-logo mb-30">
+						<h3><a href="">White</a></h3>
+					</div>
+					<div class="social-icon">
+						<a href="#"><i class="ion-social-facebook"></i></a>
+						<a href="#"><i class="ion-social-googleplus"></i></a>
+						<a href="#"><i class="ion-social-instagram"></i></a>
+						<a href="#"><i class="ion-social-dribbble"></i></a>
+					</div>
+					<div class="footer-menu mt-30">
+						<nav>
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Portfolio</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="copyright mt-20">
+						<p>Copyright &copy; 2021.Company name All rights reserved.<a target="_blank" href="http://www.cssmoban.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer end -->
+
 		
-	<link href="01_Photography/css/styles.css" rel="stylesheet">
-	
-	<link href="01_Photography/css/responsive.css" rel="stylesheet">
-	
-</head>
-<body>
-	
-	<header>
-		<a class="logo" href="#"><img src="mentmate.github.io/images/logo.PNG" alt="Logo"></a>
-		
-		<a class="right-area" href="mailto:contact@colorlib.com">CONTACT@COLORLIB.COM</a>
-		
-		<a class="menu-nav-icon" data-menu="#main-menu"><i class="ion-navicon"></i></a>
-
-		<ul class="main-menu" id="main-menu">
-			<li><a href="index.html">主页</a></li>
-			<li class="drop-down"><a href="#!">扫街<i class="ion-arrow-down-b"></i></a>
-				<ul class="drop-down-menu drop-down-inner">
-					<li><a href="02_GN.html">广安 </a></li>
-					<li><a href="03_CD.html">成都 </a></li>
-					<li><a href="04_WH.html">武汉 </a></li>
-				</ul>
-			</li>
-			<li><a href="05_peple.html">人像</a></li>
-			<li><a href="06_iphone.html">手机</a></li>
-		</ul>
-	</header>
-	
-	<section class="slider-section">
-	<div id="rev_slider_28_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="parallax-zoom-slices" data-source="gallery" style="background:#aaaaaa;padding:0px;">
-		<div>
-			<ul>
-
-									 
-	          <img src="mentmate.github.io/home-1.jpg" alt=""  data-bgposition="center center" 					   
-						data-kenburns="on" data-duration="6000" data-ease="Linear.easeNone" 
-						data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" 
-						data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" 
-						class="rev-slidebg" data-no-retina>
-				
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption tp-resizeme visit-btn"  
-						 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-						 data-y="['middle','middle','middle','middle']" data-voffset="['25','25','25','25']" 
-						data-fontsize="['25','20','20','20']" data-lineheight="['30','25','25','25']"
-						data-width="['none','none','480','360']" data-height="none"
-						data-whitespace="['nowrap','nowrap','normal','normal']"
-			 
-						data-type="text" data-responsive_offset="on" 
-
-						data-frames='[{"delay":400,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},
-						{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},
-						{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 100);bc:rgb(255,255,255);bw:0 0 0px 0;"}]'
-						data-textAlign="['inherit','inherit','center','center']"
-						data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
-						data-paddingleft="[0,0,0,0]"
-
-						style="z-index: 15; white-space: nowrap; font-size: 25px; line-height: 30px; color: #fff; 
-						border-color:#fff; border-style:solid;border-width:0px 0px 3px 0px;cursor:pointer;
-						letter-spacing: 5px; font-weight: 600; min-width: auto;"> Ment mate</div>
-				
-				
-		
-				
-				<!-- SLIDE 2 -->
-				<li data-index="rs-83" data-transition="fade" data-slotamount="default" data-hideafterloop="0" 
-					data-hideslideonmobile="off"  
-					data-easein="Power4.easeOut" data-easeout="Power4.easeOut" data-masterspeed="1000"  
-					data-rotate="0"  data-saveperformance="off"  
-					data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" 
-					data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" 
-					data-slicey_shadow="0px 0px 50px 0px transparent">
-					
-					<!-- MAIN IMAGE -->
-					<img src="mentmate.github.io/images/home-2.jpg"  alt=""  data-bgposition="center center" data-kenburns="on"
-						data-duration="6000" data-ease="Linear.easeNone" data-scalestart="100" 
-						data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-blurstart="0"
-						data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg"
-						data-no-retina>
-					
-					<!-- LAYERS -->
-
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption tp-resizeme"  
-						data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-						data-y="['middle','middle','middle','middle']" data-voffset="['-53','-53','-53','-33']" 
-						data-fontsize="['80','70','60','50']" data-lineheight="['90','80','70','60']"
-						data-width="none" data-height="none" data-whitespace="nowrap"
-			 
-						data-type="text" data-responsive_offset="on" 
-
-						data-frames='[{"delay":200,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},
-							{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-						data-textAlign="['inherit','inherit','inherit','inherit']"
-						data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
-						data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-
-						style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 90px; font-weight: 600; 
-						color: rgba(255,255,255,100); ">FUJI CAMERA</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption tp-resizeme visit-btn" 
-						 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-						 data-y="['middle','middle','middle','middle']" data-voffset="['25','25','25','25']" 
-						data-fontsize="['25','20','20','20']" data-lineheight="['30','25','25','25']"
-						data-width="['none','none','480','360']" data-height="none"
-						data-whitespace="['nowrap','nowrap','normal','normal']"
-			 
-						data-type="text" data-responsive_offset="on" 
-
-						data-frames='[{"delay":400,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},
-							{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},
-							{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 100);bc:rgb(255,255,255);bw:0 0 0px 0;"}]'
-						data-textAlign="['inherit','inherit','center','center']"
-						data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
-						data-paddingleft="[0,0,0,0]"
-
-						style="z-index: 15; white-space: nowrap; font-size: 25px; line-height: 30px; color: #fff; 
-						border-color:#fff; border-style:solid;border-width:0px 0px 3px 0px;cursor:pointer;
-						letter-spacing: 5px; font-weight: 600; min-width: auto;">Ment mate</div>
-				
-				</li>
-				
-				<!-- SLIDE 3 -->
-				<li data-index="rs-84" data-transition="fade" data-slotamount="default" 
-					data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeOut"
-					data-easeout="Power4.easeOut" data-masterspeed="1000" data-rotate="0"  
-					data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" 
-					data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" 
-					data-param8="" data-param9="" data-param10="" data-description="" 
-					data-slicey_shadow="0px 0px 50px 0px transparent">
-					<!-- MAIN IMAGE -->
-					<img src="mentmate.github.io/images/home-3.jpg"  alt=""  data-bgposition="center center" 
-						data-kenburns="on" data-duration="6000" data-ease="Linear.easeNone" 
-						data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" 
-						data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" 
-						class="rev-slidebg" data-no-retina>
-					<!-- LAYERS -->
-
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption tp-resizeme" 
-						data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-						data-y="['middle','middle','middle','middle']" data-voffset="['-53','-53','-53','-33']" 
-						data-fontsize="['80','70','60','50']" data-lineheight="['90','80','70','60']"
-						data-width="none" data-height="none" data-whitespace="nowrap"
-			 
-						data-type="text" data-responsive_offset="on" 
-
-						data-frames='[{"delay":200,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},
-						{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-						data-textAlign="['inherit','inherit','inherit','inherit']"
-						data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
-						data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-
-						style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 90px; font-weight: 600; 
-						color: rgba(255,255,255,100); ">FUJI  CAMERA</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption tp-resizeme visit-btn" 
-						 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-						 data-y="['middle','middle','middle','middle']" data-voffset="['25','25','25','25']" 
-						data-fontsize="['25','20','20','20']" data-lineheight="['30','25','25','25']"
-						data-width="['none','none','480','360']" data-height="none"
-						data-whitespace="['nowrap','nowrap','normal','normal']"
-			 
-						data-type="text" data-responsive_offset="on" 
-
-						data-frames='[{"delay":400,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},
-						{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},
-						{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 100);bc:rgb(255,255,255);bw:0 0 0px 0;"}]'
-						data-textAlign="['inherit','inherit','center','center']"
-						data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
-						data-paddingleft="[0,0,0,0]"
-
-						style="z-index: 15; white-space: nowrap; font-size: 25px; line-height: 30px; color: #fff; 
-						border-color:#fff; border-style:solid;border-width:0px 0px 3px 0px;cursor:pointer;
-						letter-spacing: 5px; font-weight: 600; min-width: auto;">Ment mate</div>
-				
-				</li>
-				
-				
-				<!-- SLIDE  4-->
-				<li data-index="rs-85" data-transition="fade" data-slotamount="default" data-hideafterloop="0" 
-					data-hideslideonmobile="off"  
-					data-easein="Power4.easeOut" data-easeout="Power4.easeOut" data-masterspeed="1000"  
-					data-rotate="0"  data-saveperformance="off"  
-					data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" 
-					data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" 
-					data-slicey_shadow="0px 0px 50px 0px transparent">
-					
-					<!-- MAIN IMAGE -->
-					<img src="mentmate.github.io/images/home-4.jpg"  alt=""  data-bgposition="center center" data-kenburns="on"
-						data-duration="7000" data-ease="Linear.easeNone" data-scalestart="100" 
-						data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-blurstart="0"
-						data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg"
-						data-no-retina>
-					
-					<!-- LAYERS -->
-
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption tp-resizeme"  
-						data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-						data-y="['middle','middle','middle','middle']" data-voffset="['-53','-53','-53','-33']" 
-						data-fontsize="['80','70','60','50']" data-lineheight="['90','80','70','60']"
-						data-width="none" data-height="none" data-whitespace="nowrap"
-			 
-						data-type="text" data-responsive_offset="on" 
-
-						data-frames='[{"delay":200,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},
-							{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-						data-textAlign="['inherit','inherit','inherit','inherit']"
-						data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
-						data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-
-						style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 90px; font-weight: 600; 
-						color: rgba(255,255,255,100); ">FUJI CAMERA</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption tp-resizeme visit-btn" 
-						 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-						 data-y="['middle','middle','middle','middle']" data-voffset="['25','25','25','25']" 
-						data-fontsize="['25','20','20','20']" data-lineheight="['30','25','25','25']"
-						data-width="['none','none','480','360']" data-height="none"
-						data-whitespace="['nowrap','nowrap','normal','normal']"
-			 
-						data-type="text" data-responsive_offset="on" 
-
-						data-frames='[{"delay":400,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},
-							{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},
-							{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 100);bc:rgb(255,255,255);bw:0 0 0px 0;"}]'
-						data-textAlign="['inherit','inherit','center','center']"
-						data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
-						data-paddingleft="[0,0,0,0]"
-
-						style="z-index: 15; white-space: nowrap; font-size: 25px; line-height: 30px; color: #fff; 
-						border-color:#fff; border-style:solid;border-width:0px 0px 3px 0px;cursor:pointer;
-						letter-spacing: 5px; font-weight: 600; min-width: auto;">Ment mate</div>
-				
-				</li>
-			</ul>
-			<div class="tp-bannertimer" style="height: 10px; background: rgba(255,255,255,0.25);"></div>
-	</div>
-	</div>
-		
-	</section>
-	
-	<footer>
-		<p class="copyright">
-			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-         &copy;日期:
-		 <script>
-		 document.write(new Date().getFullYear());document.write(".");
-		 document.write(new Date().getMonth()+1);document.write(".");
-		 document.write(new Date().getDate());
-		 </script> 
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-		</p>
-		
-		<a class="show-thumb-btn" href="#" >RECORD NEVER STOPS</a>
-		
-		<ul class="social-icons">
-			<li><a href="#"><i class="ion-social-facebook-outline"></i></a></li>
-			<li><a href="#"><i class="ion-social-twitter-outline"></i></a></li>
-			<li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-			<li><a href="#"><i class="ion-social-vimeo-outline"></i></a></li>
-		</ul><!-- social-icons -->
-	</footer>
-	
-	
-	<!-- SCIPTS -->
-	
-	<script src="common-js/jquery-3.2.1.min.js"></script>
-	
-	<script src="common-js/tether.min.js"></script>
-	
-	<script src="common-js/bootstrap.js"></script>
-	
-	<!-- REVOLUTION JS FILES -->
-	<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
-	<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-		
-	
-	<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->	
-	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
-	
-	
-	<script src="common-js/scripts.js"></script>
-	
-<style>
-.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
-</style>
-</body>
+		<!-- All js plugins here -->
+        <script src="static/js/jquery-1.12.0.min.js"></script>
+        <script src="static/js/bootstrap.min.js"></script>
+        <script src="static/js/isotope.pkgd.min.js"></script>
+        <script src="static/js/imagesloaded.pkgd.min.js"></script>
+        <script src="static/js/jquery.magnific-popup.min.js"></script>
+        <script src="static/js/jquery.meanmenu.js"></script>
+        <script src="static/js/plugins.js"></script>
+        <script src="static/js/main.js"></script>
+    </body>
 </html>
